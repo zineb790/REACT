@@ -1,0 +1,39 @@
+
+
+button {
+  border: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+li {
+  margin: 1rem;
+  border: 1px solid darkblue;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.in-cart {
+  background-color: lightgreen;
+}
+
+ul {
+  list-style: none;
+  padding-inline: 0;
+  margin-left: 1rem;
+}
+
+.container {
+  display: flex;
+}
