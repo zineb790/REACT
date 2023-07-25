@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react'
 import ProductList from './components/ProductList';
 import products from './data';
 import Cart from './components/Cart';
+import Counter from './components/Counter';
 
 function App() {
 
