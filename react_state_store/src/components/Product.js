@@ -25,6 +25,7 @@ export default function Product (props) {
         <span>It is in your shopping cart!</span> :
         <span>It is not in your shopping cart!</span>
       }
+      
       <button onClick={toggleCart}>{inShoppingCart ?
         <span>Remove from your cart!</span> :
         <span>Add to your cart!</span>
