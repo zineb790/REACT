@@ -8,13 +8,12 @@ export default function DogFact() {
     
 // fetch function
   const fetchDogFact = () => {
-    fetch('https://dogs-by-api-ninjas.p.rapidapi.com/v1/dogs').then((res) => res.json()).then((data) => {
-      setDogFact(data.dogs)
+    fetch('https://dog-api.kinduff.com/api/facts').then((res) => res.json()).then((data) => {
+      setDogFact(data.facts)
     })
-      
+     
     };
    
-    
 //useEffect hook with fetch function inside 
   useEffect(() => {
      fetchDogFact()
