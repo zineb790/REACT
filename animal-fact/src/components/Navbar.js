@@ -5,6 +5,7 @@ export default function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/Catfact">CatFact</Link>
             <Link to="/dogfact">Dogfact</Link>
+            <Link to="/dogbreed">Dogbreeds</Link>
         </div>
     )
 }
