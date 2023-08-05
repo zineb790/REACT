@@ -5,17 +5,20 @@ import DogFact from './components/DogFact';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import DogBreed from './components/DogBreed'
+import ChickenFact from './components/ChickenFact'
 
 function App() {
   return (
     <div className="App">
      
-        <Navbar />
+        <Navbar/>
         <Routes>
         <Route path="/" element={<Home/>} />
-        <Route  path="/catfact" element={<CatFact />}/>
-        <Route path="/dogfact" element={<DogFact />} />
-        <Route path="/dogbreed" element={<DogBreed />} />
+        <Route  path="/catfacts" element={<CatFact />}/>
+        <Route path="/dogfacts" element={<DogFact />} />
+        <Route path="/dogbreeds" element={<DogBreed />} />
+        <Route path="/chickenfacts" element={<ChickenFact />} />
+
         <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
        

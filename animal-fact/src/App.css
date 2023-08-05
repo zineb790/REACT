@@ -1,38 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .App {
   text-align: center;
+  height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  background-color: teal;
+  padding: 10px;
+}
+.nav a{
   color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 10 0 10;
+
+}
+.nav a:hover{
+ border-bottom: 2px solid white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.catfact{
+   background-image: url(/public/cat.jpg);
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  
+  
+
+}
+.catfact p {
+  color: whitesmoke;
+  margin: 20px;
+  font-size: 30px;
+  background-color:rgba(255,255,2500,0.1);
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.catfact button{
+padding: 10px;
+border-radius: 20px;
+font-size: 30px;
+ margin-bottom: 20px;
+}
+.catfact h1{
+  color: bisque;
+ margin-bottom: 15px;
+ padding: 15px;
+}
+.home-page{
+  background-image: url(/public/homepage.jpg);
+  height: 100%;
+  background-size: cover;
+
+}
+.home-page h1{
+   color: bisque;
+   width: 60%;
+   margin: auto;
+   padding: 20px;
+
+
+}
+.home-page p {
+  color: whitesmoke;
+  margin: 20px;
+  font-size: 30px;
+  background-color:rgba(255,255,255,0.1);
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.dogfact{
+  background-image: url(/public/dog.jpg);
+  height: 100%;
+  background-size: cover;
+}
+.dogfact p {
+  color: whitesmoke;
+  margin: 20px;
+  font-size: 30px;
+  background-color:rgba(14, 131, 111, 0.3);
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.dogfact h1 {
+   color: rgb(200, 123, 29);
+   width: 60%;
+   margin: auto;
+   padding: 20px;
+  text-shadow: 2px 2px #140404;
+}
+.dogfact button{
+padding: 10px;
+border-radius: 10px;
+font-size: 30px;
+ margin-bottom: 20px;
+}
+.breeds{
+  background-image: url(/public/wood.jpg);
+  background-size: cover;
+  min-height: 100%;
+
+}
+.breeds h1{
+  color: wheat;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.breeds div{
+  color: aliceblue;
+  line-height: 1.6;
+}
+.breeds button{
+padding: 5px;
+border-radius: 10px;
+ margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

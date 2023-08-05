@@ -18,9 +18,9 @@ export default function CatFact() {
     }, []);
     
     return (
-        <div>
-      <h1> amazing cat fact</h1>
-      <button onClick={fetchCatFact}>generate cat fact</button>
+        <div className='catfact'>
+      <h1> amazing cat facts</h1>
+      <button onClick={fetchCatFact}>Uncover More Details</button>
       <p>{catFact}</p> 
         </div>
     )

@@ -20,9 +20,9 @@ export default function DogFact() {
     }, []);
     
     return (
-        <div>
+        <div className='dogfact'>
       <h1> amazing dog fact</h1>
-      <button onClick={fetchDogFact}>generate dog fact</button>
+      <button onClick={fetchDogFact}>What else furry friends?</button>
       <p>{dogFact}</p> 
         </div>
     )
