@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 
+
 export default function DogBreed() {
     
     //declaring state
@@ -26,7 +27,7 @@ export default function DogBreed() {
             {Object.keys(dogBreed).map((message) => {
                 return (
                 <div>
-                    {message}    
+                {message} 
                 </div>
                 )
                 

@@ -7,8 +7,8 @@ export default function ChickenFact() {
     
 // fetch function
   const fetchChickenFact = () => {
-    fetch('https://chickenfacts.io/api/v1/facts/30.json').then((res) => res.json()).then((data) => {
-      setChickenFact(data.fact)
+    fetch('https://chickenfacts.io/api/v1/facts/21.json').then((res) => res.json()).then((fact) => {
+      setChickenFact(fact.fact)
     })    
     };
     
@@ -20,17 +20,24 @@ export default function ChickenFact() {
     return (
         <div className='chickenfact'>
       <h1> amazing chicken facts</h1>
-      <button onClick={fetchChickenFact}>Uncover More Details</button>
-            <p>{chickenFact}</p> 
-            {/* {Object.keys(chickenFact).map((message) => {
+        <button onClick={fetchChickenFact}>explore More Details</button>
+          <p>{chickenFact}</p>
+        
+             {/* {Object.keys(chickenFact).map((message) => {
                 return (
                 <div>
                     {message}    
                 </div>
                 )
-                
-                
             })} */}
+        {/* <ul>
+        {Object.keys(chickenFact).map((fact) => (
+          <li key={chickenFact}>
+            {fact} 
+          </li>
+        ))}
+      </ul> */}
+        
         </div>
     )
 }

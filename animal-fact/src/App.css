@@ -8,12 +8,11 @@
   text-align: center;
   height: 90vh;
 }
-
 .nav{
   display: flex;
   justify-content: space-around;
   background-color: teal;
-  padding: 10px;
+  padding: 20px;
 }
 .nav a{
   color: white;
@@ -22,19 +21,15 @@
   padding: 0 10 0 10;
 
 }
+
 .nav a:hover{
  border-bottom: 2px solid white;
 
 }
-
 .catfact{
    background-image: url(/public/cat.jpg);
   height: 100%;
   background-size: cover;
-  z-index: -1;
-  
-  
-
 }
 .catfact p {
   color: whitesmoke;
@@ -51,10 +46,11 @@
 }
 .catfact button{
 padding: 10px;
-border-radius: 20px;
+border-radius: 10px;
 font-size: 30px;
  margin-bottom: 20px;
 }
+
 .catfact h1{
   color: bisque;
  margin-bottom: 15px;
@@ -74,7 +70,7 @@ font-size: 30px;
 
 
 }
-.home-page p {
+.home-page h2 {
   color: whitesmoke;
   margin: 20px;
   font-size: 30px;
@@ -93,7 +89,7 @@ font-size: 30px;
   background-size: cover;
 }
 .dogfact p {
-  color: whitesmoke;
+  
   margin: 20px;
   font-size: 30px;
   background-color:rgba(14, 131, 111, 0.3);
@@ -138,4 +134,35 @@ padding: 5px;
 border-radius: 10px;
  margin-bottom: 20px;
 }
+.chickenfact{
+  background-image: url(/public/chicken2.jpg);
+  background-size: cover;
+  height: 100%;
+}
+.chickenfact p {
+  color:white;
+  margin: 20px;
+  font-size: 30px;
+  background-color:rgba(255,255,2500,0.2);
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.chickenfact button{
+padding: 10px;
+border-radius: 10px;
+font-size: 30px;
+ margin-bottom: 20px;
+}
+
+.chickenfact h1{
+ 
+ margin-bottom: 15px;
+ padding: 15px;
+}
+
 
