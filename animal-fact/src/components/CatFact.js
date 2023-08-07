@@ -19,7 +19,7 @@ export default function CatFact() {
     
     return (
         <div className='catfact'>
-      <h1> amazing cat facts</h1>
+      <h1> Pawsitive Energy</h1>
       <button onClick={fetchCatFact}>Uncover More Details</button>
       <p>{catFact}</p> 
         </div>

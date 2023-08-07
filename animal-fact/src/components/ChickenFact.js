@@ -19,7 +19,7 @@ export default function ChickenFact() {
     
     return (
         <div className='chickenfact'>
-      <h1> amazing chicken facts</h1>
+      <h1> the chicken kingdom </h1>
         <button onClick={fetchChickenFact}>explore More Details</button>
           <p>{chickenFact}</p>
         

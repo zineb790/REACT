@@ -21,7 +21,7 @@ export default function DogFact() {
     
     return (
         <div className='dogfact'>
-      <h1> amazing dog fact</h1>
+      <h1> Incredible Sniffers</h1>
       <button onClick={fetchDogFact}>What else furry friends?</button>
       <p>{dogFact}</p> 
         </div>
